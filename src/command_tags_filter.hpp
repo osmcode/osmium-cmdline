@@ -51,6 +51,7 @@ class CommandTagsFilter : public CommandWithSingleOSMInput, public with_osm_outp
     bool m_add_referenced_objects = true;
     bool m_invert_match = false;
     bool m_remove_tags = false;
+    bool m_all_filters = false;
 
     osmium::osm_entity_bits::type get_needed_types() const;
 
